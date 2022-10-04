@@ -8,10 +8,10 @@
 </head>
 
 <body>
-  <header class="d-flex justify-content-between border shadow-sm m-3 p-3">
+  <header class="d-flex sticky-top bg-white justify-content-between border shadow-sm my-3 p-3 container">
     <h4>My Shop</h4>
-    <button type="button" class="btn btn-primary position-relative">
-      Inbox
+    <button type="button" class="btn btn-lg btn-primary position-relative cart-btn animate__animated">
+      <i class="bi bi-cart"></i> Cart
       <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
         0
         <span class="visually-hidden">unread messages</span>
@@ -20,7 +20,7 @@
   </header>
 
   <div class="container">
-    <div class="item-row row">
+    <div class="item-row row g-4 mb-4">
     </div>
   </div>
   <script type="module" src="/main.js"></script>
